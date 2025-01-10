@@ -390,7 +390,7 @@ button.btn.btn2.circle {
 
 span.btn-circle1,
 span.btn-circle2 {
-  background-image: url("/portflio-website/assets/icons/down-arrow.png");
+  background-image: url("/assets/icons/down-arrow.png");
   width: 12px;
   height: 14px;
   background-size: cover;
@@ -422,7 +422,7 @@ section#creative-heading {
 
 .image-span {
   position: relative;
-  background-image: url("/portflio-website/assets/icons/bg-2.png");
+  background-image: url("/assets/icons/bg-2.png");
   background-size: 180% auto;
   background-position: center;
   background-repeat: no-repeat;
@@ -458,7 +458,7 @@ h2.creative-heading-content {
 
 .projects-image-span {
   position: relative;
-  background-image: url("/portflio-website/assets/images/case1.png");
+  background-image: url("/assets/images/case1.png");
   background-size: 100% auto;
   background-position: center;
   background-repeat: no-repeat;
@@ -538,7 +538,7 @@ button.btn.btn2.circle.projects-arrow:hover {
 
 span.btn-circle1.projects-arrow1,
 span.btn-circle2.projects-arrow2 {
-  background-image: url("/portflio-website/assets/icons/angled-arrow.png") !important;
+  background-image: url("/assets/icons/angled-arrow.png") !important;
   width: 12px;
   height: 12px;
   background-size: cover;
@@ -741,7 +741,7 @@ p.creative-heading-content.about-me {
 }
 
 span.quote-icon {
-  background-image: url("/portflio-website/assets/icons/quotes.png");
+  background-image: url("/assets/icons/quotes.png");
   position: relative;
   background-size: 12% auto;
   background-repeat: no-repeat;
@@ -876,17 +876,17 @@ button.btn.btn2.circle.behance {
 
 span.btn-circle1.linkedin-img,
 span.btn-circle2.linkedin-img {
-  background-image: url("/portflio-website/assets/icons/linkedin.png") !important;
+  background-image: url("/assets/icons/linkedin.png") !important;
 }
 
 span.btn-circle1.dribbble-img,
 span.btn-circle2.dribbble-img {
-  background-image: url("/portflio-website/assets/icons/dribbble.png") !important;
+  background-image: url("/assets/icons/dribbble.png") !important;
 }
 
 span.btn-circle1.behance-img,
 span.btn-circle2.behance-img {
-  background-image: url("/portflio-website/assets/icons/behance.png") !important;
+  background-image: url("/assets/icons/behance.png") !important;
 }
 
 span.btn-circle1.linkedin-img,
