@@ -1051,4 +1051,112 @@ p.hero-sub-content.services-offered-para.project-para {
   text-transform: capitalize;
   font-size: 1.65rem;
   font-weight: 500;
+  margin: 1rem 6rem;
+}
+
+/* ==== Project Category ==== */
+.project-categories {
+  display: flex;
+  justify-content: space-between;
+  gap: 2.5rem;
+  margin: 7rem 6rem;
+}
+
+.category-btn {
+  display: inline-block;
+  width: 500px;
+  text-align: center;
+  padding: 13px 15px;
+  font-family: var(--primary-font);
+  font-weight: 600;
+  color: var(--text-color) !important;
+  background-color: var(--bg-opacity);
+  border: 1px solid var(--stroke-opacity2);
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 0 !important;
+}
+
+.category-btn:hover {
+  background-color: var(--stroke-opacity);
+  border: 1px solid var(--text-color);
+  color: var(--bg-color);
+}
+
+.category-btn.active {
+  background-color: var(--text-color) !important;
+  color: var(--bg-color) !important;
+  border: 1px solid var(--text-color);
+}
+
+/* .category-btn {
+  padding: 0.8rem 2rem;
+  font-family: var(--primary-font);
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: var(--bg-color);
+  border: 1px solid var(--text-color);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.category-btn:hover {
+  background-color: var(--text-color);
+  color: var(--bg-color);
+} */
+
+.project-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin: 3rem 6rem 8rem;
+}
+
+.project-item {
+  display: none; /* Hidden by default */
+  border-bottom: 1px solid var(--stroke-opacity2);
+  padding: 1rem 0;
+}
+
+.project-item h3 {
+  font-family: var(--primary-font);
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.proj {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 3rem 0.45rem;
+}
+
+.project-item p {
+  font-family: var(--primary-font);
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}
+
+.view-case-btn {
+  font-family: var(--primary-font);
+  font-size: 1rem;
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+section.proj-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button.btn.btn2.circle.projects-arrow.proj-circle {
+  width: 34px !important;
+  height: 29px !important;
+  margin: 0.3rem 0 0rem !important;
 }
