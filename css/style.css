@@ -53,8 +53,9 @@ header {
 }
 
 h1.logo {
-  font-size: 1.5rem;
-  letter-spacing: 1.5px;
+  font-size: 1.1rem;
+  letter-spacing: 2px;
+  font-weight: 500;
   text-transform: capitalize;
   color: var(--bg-color);
 }
@@ -319,6 +320,7 @@ button.btn.btn2.view-case {
   font-family: var(--accent-font);
   color: var(--bg-color);
   font-size: 4.5rem;
+  font-weight: 500;
   letter-spacing: 1.5px;
   margin: 0 16px;
   width: 199%;
@@ -1005,4 +1007,48 @@ span.footer-button.btn-botton2 {
   margin-top: 0 !important;
 }
 
-/* icons-images updated */
+/*==== projects-page===== */
+.projects-header {
+  background-color: var(--bg-color) !important;
+}
+
+h1.projects-logo a {
+  color: var(--text-color);
+}
+
+.projects {
+  color: var(--text-color) !important;
+}
+
+span.project-txt {
+  color: var(--text-color) !important;
+}
+
+button.project-btn {
+  border: 1px solid var(--stroke-opacity2);
+  background-color: var(--bg-opacity2);
+}
+
+button.project-btn:hover {
+  border: 1px solid var(--bg-opacity);
+  background-color: var(--stroke-opacity2);
+}
+
+h1.project-title {
+  color: var(--text-color);
+}
+
+.projects-head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  max-width: 100% !important;
+}
+
+p.hero-sub-content.services-offered-para.project-para {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 1.65rem;
+  font-weight: 500;
+}
