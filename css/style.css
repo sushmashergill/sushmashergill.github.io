@@ -48,7 +48,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px 40px;
+  padding: 0 5rem 6rem !important;
   background-color: var(--text-color);
 }
 
@@ -320,7 +320,7 @@ button.btn.btn2.view-case {
   color: var(--bg-color);
   font-size: 4.5rem;
   letter-spacing: 1.5px;
-  margin-bottom: 16px;
+  margin: 0 16px;
   width: 199%;
 }
 
