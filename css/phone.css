@@ -1,0 +1,72 @@
+.navbar{
+    display: -webkit-inline-box;
+    padding-top: 40px;
+    /* padding-right: 84px; */
+    margin: auto;
+}
+
+.flex{
+    flex-direction: column;
+    width: 100%;
+    /* max-width: 400px; */
+}
+
+.navbar li button{
+    padding: 14px 24px;
+    margin-top: -7px;
+}
+
+.navbar .item{
+    /* margin: auto; */
+    /* align-self: self-start; */
+    /* justify-content: center; */
+    /* width: 100%; */
+    margin: auto;
+}
+
+.navbar li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    /* padding-bottom: 8px; */
+}
+
+.infoContainer{
+    padding-top: 100px;
+}
+
+.top-left h1{
+    font-size: 2.7rem;
+}
+
+/* .bg-text{
+    width: 100%;
+} */
+
+.bg-text::after{
+    /* object-fit: contain; */
+    display: none;
+}
+
+.Contact-items{
+    flex-wrap: wrap;
+}
+
+.Contact-items li a span{
+    display: none;
+}
+
+@media screen and (max-width: 550px) {
+    /* CSS rules for screens with a maximum width of 600px or less */
+    .navbar{
+        flex-wrap: wrap;
+        /* margin: 10px 10px;
+        padding: 0px 0px; */
+    }
+
+    .navbar li button{
+        /* padding: 14px 24px; */
+        margin-top: 10px;
+    }
+
+
+  }

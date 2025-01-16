@@ -1,0 +1,88 @@
+/* .infoContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.infoContainer::after {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 600px;
+  top: 0; */
+  /* opacity: 17.15; */
+  /* background-size: cover;
+  background-position: center; */
+  /* z-index: -1; */
+  /* background-image: url(./images/bg-img1.png);
+} */
+
+
+.container{
+    background-image: url(./images/bg-CaseStudy.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.top-left{
+    font-family: var(--font2);
+    display: flex;
+    justify-content: left;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+.top-left h1{
+    font-size: 2.5rem;
+    font-family: var(--font2);
+    /* text-transform: none; */
+}
+
+.top-left p{
+    color: var(--text-color2);
+    font-size: 16px;
+}
+
+.top-right{
+    font-weight: normal;
+    width: 11%;
+}
+
+.top-right h6{
+    font-size: 20px;
+    color: var(--text-color2);
+}
+
+.top-right p{
+    font-size: 18px;
+}
+
+.services-item p{
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+.Project-Gallery-text h1{
+    font-family: var(--font2);
+    display: flex;
+    justify-content: center;
+    font-size: 4.5rem;
+}
+
+.project-img{
+    /* height: 500px; */
+    width: 85vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* padding: 150px 0px; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.project-img img{
+    margin-top: 100px;
+}
