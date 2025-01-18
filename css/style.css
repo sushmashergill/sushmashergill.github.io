@@ -114,6 +114,7 @@ html {
 }
 
 .item a span {
+  top: 3px;
   position: relative;
   display: inline-block;
   -webkit-transition: -webkit-transform 0.3s;
@@ -303,7 +304,7 @@ html {
   background-size: cover;
   background-position: center;
   z-index: 1;
-  background-image: url("/assets/icons/Creative\ Showcase.svg");
+  background-image: url("../assets/icons/Creative\ Showcase.svg");
 }
 
 .heading-text h3 {
@@ -318,7 +319,7 @@ html {
 .bg-img1 {
   position: relative;
   height: 600px;
-  width: 100%;
+  /* width: 100%; */
   /* background-color: chartreuse; */
   display: flex;
   align-items: center;
@@ -330,15 +331,15 @@ html {
   position: absolute;
   display: block;
   content: "";
-  width: 85vw;
-  height: 600px;
+  width: 100%;
+  height: 100%;
   top: 0;
   align-items: center;
   /* opacity: 17.15; */
   background-size: cover;
   background-position: center;
-  /* z-index: -1; */
-  background-image: url("/assets/images/bg-img1.png");
+  z-index: -1;
+  background-image: url("../assets/images/bg-img1.png");
 }
 
 .content {
@@ -348,7 +349,7 @@ html {
   z-index: 1;
   padding-left: 100px;
   /* padding-bottom: 140px; */
-  line-height: 50px;
+  line-height: 3.2rem;
 }
 
 .content h3 {
@@ -364,6 +365,7 @@ html {
   white-space: nowrap;
   padding: 10px 10px;
   font-size: 12px;
+  cursor: pointer;
 }
 
 .bg-img2 {
@@ -389,7 +391,7 @@ html {
   background-size: cover;
   background-position: center;
   /* z-index: -1; */
-  background-image: url("/assets/images/bg-img2.png");
+  background-image: url("../assets/images/bg-img2.png");
 }
 
 .View-AllProjects {
@@ -430,7 +432,7 @@ html {
 .Contact-items a span, .Contact-btn a span {
   position: relative;
   display: inline-block;
-  padding: 0.2rem 0;
+  padding: 0.4rem 0;
   -webkit-transition: -webkit-transform 0.3s;
   -moz-transition: -moz-transform 0.3s;
   transition: transform 0.3s;
@@ -440,6 +442,7 @@ html {
 .Contact-items a span::before, .Contact-btn a span::before {
   position: absolute;
   top: 100%;
+  padding-top: 6px;
   content: attr(data-hover); /* Display the hover text */
   -webkit-transform: translate3d(0, 0, 0);
   -moz-transform: translate3d(0, 0, 0);
@@ -547,7 +550,7 @@ span.sr-number {
   background-size: cover;
  /* / background-position: center; */
   /* z-index: -1; */
-  background-image: url("/assets/images/about-bg.png");
+  background-image: url("../assets/images/about-bg.png");
 }
 
 .About-content {

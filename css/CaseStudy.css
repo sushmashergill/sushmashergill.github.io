@@ -21,7 +21,7 @@
 
 
 .container{
-    background-image: url(./images/bg-CaseStudy.png);
+    background-image: url(../assets/images/bg-CaseStudy.png);
     background-size: cover;
     background-position: center;
 }
