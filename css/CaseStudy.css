@@ -23,19 +23,30 @@
 .container{
     background-image: url(../assets/images/bg-CaseStudy.png);
     background-size: cover;
-    background-position: center;
+    background-position: right;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    background-color: black !important;
 }
 
-.top-left{
+.infoContainer {
+    padding: 15rem 0 10rem;
+    height: auto;
+  }
+
+.top-left {
     font-family: var(--font2);
     display: flex;
-    justify-content: left;
-    align-items: baseline;
+    justify-content: center;
+    align-items: flex-start;
     flex-direction: column;
+    /* margin: 10rem 0; */
 }
+
 
 .top-left h1{
     font-size: 2.5rem;
+    text-align: left;
     font-family: var(--font2);
     /* text-transform: none; */
 }
@@ -57,18 +68,42 @@
 
 .top-right p{
     font-size: 18px;
+    /* letter-spacing: 0.5px; */
 }
+
+.explore-btn {
+    padding-top: 1rem;
+}
+
+h3 {
+    font-family: var(--font2);
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+section#Project-Gallery {
+    margin: 7rem 0;
+}
+
+.services-item div {
+    width: 45%;
+  }
 
 .services-item p{
-    font-size: 30px;
-    text-transform: capitalize;
+    letter-spacing: 0.5px;
+    font-size: 1.3rem;
+    padding: 15px 0px;
+    line-height: 1.3;
+    text-transform: none;
 }
 
-.Project-Gallery-text h1{
-    font-family: var(--font2);
-    display: flex;
-    justify-content: center;
-    font-size: 4.5rem;
+.services-item hr{
+    width: 46%;
+}
+
+.Project-Gallery-text.mx-auto.max-width {
+    text-align: center;
 }
 
 .project-img{
@@ -84,5 +119,5 @@
 }
 
 .project-img img{
-    margin-top: 100px;
+    margin-top: 4rem;
 }
