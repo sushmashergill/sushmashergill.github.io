@@ -2,6 +2,7 @@
   font-family: "Dirtyline";
   src: url("../assets/fonts/Dirtyline_36Daysoftype_2022/woff/Dirtyline_36Daysoftype_2022.woff2")
     format("woff2");
+  /* font-display: swap; */
 }
 
 @font-face {
@@ -46,8 +47,8 @@ html {
   padding-top: 20px;
   background-color: var(--main-bg-color1);
   width: 100%;
-  height: auto;
-  min-height: 100vh;
+  /* height: auto;
+  min-height: 100vh; */
 }
 
 .navbar {
@@ -218,8 +219,8 @@ html {
   font-family: var(--font1);
   color: var(--text-color2);
   text-transform: capitalize;
-  font-size: 4.7rem;
-  font-size: 4.5rem;
+  /* font-size: 4.7rem; */
+  font-size: 4.3rem;
   font-weight: 500;
   letter-spacing: 1.45px;
   width: 85%;
@@ -409,9 +410,10 @@ html {
   font-weight: 600;
 }
 
-.MyWork-btn a, .AllProjects-btn a,
-.Contact-items a, .Contact-btn a
- {
+.MyWork-btn a,
+.AllProjects-btn a,
+.Contact-items a,
+.Contact-btn a {
   /* display: flex;
   justify-content: right;
   align-items: center;
@@ -428,8 +430,10 @@ html {
   position: relative;
 }
 
-.MyWork-btn a span, .AllProjects-btn a span,
-.Contact-items a span, .Contact-btn a span {
+.MyWork-btn a span,
+.AllProjects-btn a span,
+.Contact-items a span,
+.Contact-btn a span {
   position: relative;
   display: inline-block;
   padding: 0.4rem 0;
@@ -438,8 +442,10 @@ html {
   transition: transform 0.3s;
 }
 
-.MyWork-btn a span::before, .AllProjects-btn a span::before,
-.Contact-items a span::before, .Contact-btn a span::before {
+.MyWork-btn a span::before,
+.AllProjects-btn a span::before,
+.Contact-items a span::before,
+.Contact-btn a span::before {
   position: absolute;
   top: 100%;
   padding-top: 6px;
@@ -450,10 +456,14 @@ html {
   /* color: var(--text-color1); */
 }
 
-.MyWork-btn a:hover span, .AllProjects-btn a:hover span,
-.MyWork-btn a:focus span, .AllProjects-btn a:focus span,
-.Contact-items a:hover span, .Contact-items a:focus span,
-.Contact-btn a:hover span, .Contact-btn a:focus span {
+.MyWork-btn a:hover span,
+.AllProjects-btn a:hover span,
+.MyWork-btn a:focus span,
+.AllProjects-btn a:focus span,
+.Contact-items a:hover span,
+.Contact-items a:focus span,
+.Contact-btn a:hover span,
+.Contact-btn a:focus span {
   -webkit-transform: translateY(-100%);
   -moz-transform: translateY(-100%);
   transform: translateY(-100%);
@@ -464,7 +474,7 @@ html {
 }
 
 .AllProjects-btn a img {
-  margin-left: 0.20rem;
+  margin-left: 0.2rem;
   height: 46px;
 }
 
@@ -505,13 +515,14 @@ h2 {
   font-size: 2rem;
 }
 
-span.sr-number {
+/* span.sr-number {
   font-size: 1.6rem;
-}
+} */
 
 .services-item div {
   display: flex;
   align-items: center;
+  /* gap: 2rem; */
   justify-content: space-between;
   width: 60%;
   padding: 3rem 0 2rem;
@@ -550,7 +561,7 @@ span.sr-number {
   top: 0;
   opacity: 0.35;
   background-size: cover;
- /* / background-position: center; */
+  /* / background-position: center; */
   /* z-index: -1; */
   background-image: url("../assets/images/about-bg.png");
 }
@@ -627,28 +638,33 @@ span.sr-number {
   /* background-color: rgb(118, 118, 236); */
 }
 
-.Testimonial-box1 img, .Testimonial-box2 img  {
+.Testimonial-box1 img,
+.Testimonial-box2 img {
   height: 40px;
   width: 40px;
 }
 
-.Testimonial-box1 p, .Testimonial-box2 p {
+.Testimonial-box1 p,
+.Testimonial-box2 p {
   font-size: 1.7rem;
 }
 
-.Client-box1, .Client-box2 {
+.Client-box1,
+.Client-box2 {
   display: flex;
   align-items: center;
   justify-content: left;
   padding-top: 1.4rem;
 }
 
-.Client-box1 img, .Client-box2 img {
+.Client-box1 img,
+.Client-box2 img {
   height: 40px;
   width: 40px;
 }
 
-.Client-text1, .Client-text2 {
+.Client-text1,
+.Client-text2 {
   padding-left: 15px;
   display: flex;
   align-items: flex-start;
@@ -658,15 +674,16 @@ span.sr-number {
   justify-content: center;
 }
 
-.Client-text1 h6, .Client-text2 h6 {
+.Client-text1 h6,
+.Client-text2 h6 {
   font-weight: 600;
   font-size: 1rem;
 }
 
-.Client-text1 p, .Client-text2 p {
+.Client-text1 p,
+.Client-text2 p {
   font-size: 15px;
 }
-
 
 #Contact {
   background-color: var(--main-bg-color1);
@@ -768,4 +785,120 @@ span.social-txt {
 .Contact-btn a img {
   margin-right: 15px;
   height: 32px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 1024px) {
+  .services-text h2 {
+    font-size: 3.5rem;
+  }
+
+  .services-text p {
+    font-size: 1.4rem;
+  }
+
+  .services-item div {
+    gap: 2rem !important;
+  }
+
+  .services-item span {
+    text-align: end;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .item span {
+    width: max-content;
+  }
+
+  .services-item div {
+    gap: 2rem !important;
+  }
+
+  .services-item {
+    font-size: 1.5rem;
+  }
+
+  h1.text-blue {
+    font-size: 3rem;
+    /* display: none; */
+  }
+
+  .Contact-text h1{
+    font-size: 3rem;
+  }
+
+  /* .bg-img1{
+    aspect-ratio: 4/3;
+  } */
+}
+
+@media (max-width: 480px) {
+  .logo a {
+    text-align: left;
+  }
+
+  button.btn {
+    padding: 12px;
+  }
+
+  .item span {
+    width: max-content;
+  }
+
+  .infoContainer {
+    padding: 0;
+  }
+
+  h1.text-blue {
+    font-size: 2rem;
+    display: none;
+  }
+
+  .top-right.flex-col {
+    width: 100%;
+  }
+
+  .heading-text h3 {
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+
+  .MyWork-btn a img, .Contact-btn a img{
+    height: 25px;
+  }
+
+  .MyWork-btn a span, .Contact-btn a span{
+    font-size: 0.6rem;
+  }
+
+  .heading {
+    height: auto;
+    padding: 3rem 0;
+  }
+
+  .heading::after {
+    display: none;
+  }
+
+  .bg-img1,
+  .bg-img2 {
+    aspect-ratio: 1/1;
+  }
+
+  .content {
+    display: none;
+  }
+
+  .Contact-items li span {
+    display: none;
+  }
+
+  .Contact-text h1{
+    font-size: 2rem;
+  }
+
+  .Contact-copywrite p{
+    font-size: 0.6rem;
+  }
 }
