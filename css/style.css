@@ -807,6 +807,10 @@ span.social-txt {
 }
 
 @media screen and (max-width: 768px) {
+  .infoContainer {
+    padding-top: 6rem;
+  }
+  
   .item span {
     width: max-content;
   }
@@ -821,11 +825,19 @@ span.social-txt {
 
   h1.text-blue {
     font-size: 3rem;
-    /* display: none; */
+    display: none;
   }
 
-  .Contact-text h1{
-    font-size: 3rem;
+  .Contact-text h1 {
+    font-size: 2rem;
+  }
+
+  .top-left {
+    padding-bottom: 0;
+  }
+
+  .top-right {
+    width: 100%;
   }
 
   /* .bg-img1{
@@ -864,11 +876,13 @@ span.social-txt {
     line-height: 2rem;
   }
 
-  .MyWork-btn a img, .Contact-btn a img{
+  .MyWork-btn a img,
+  .Contact-btn a img {
     height: 25px;
   }
 
-  .MyWork-btn a span, .Contact-btn a span{
+  .MyWork-btn a span,
+  .Contact-btn a span {
     font-size: 0.6rem;
   }
 
@@ -894,11 +908,11 @@ span.social-txt {
     display: none;
   }
 
-  .Contact-text h1{
+  .Contact-text h1 {
     font-size: 2rem;
   }
 
-  .Contact-copywrite p{
+  .Contact-copywrite p {
     font-size: 0.6rem;
   }
 }
