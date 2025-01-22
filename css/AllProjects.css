@@ -29,12 +29,12 @@
   background: rgba(22, 23, 23, 0.05);
 }
 
-.navbar .btn::after{
+.navbar .btn::after {
   background-color: var(--btn-bg-color1);
   font-weight: 600;
 }
 
-.navbar .btn span:last-child{
+.navbar .btn span:last-child {
   color: var(--text-color2);
 }
 
@@ -47,6 +47,7 @@
   /* background-color: rgb(189, 136, 238); */
   display: flex;
   justify-content: center;
+  text-align: center;
   flex-direction: column;
   color: var(--text-color1);
 }
@@ -75,7 +76,8 @@
   text-align: center;
   align-items: center;
   margin: auto;
-  justify-content: space-between;
+  gap: 3rem;
+  justify-content: center;
   text-transform: uppercase;
   /* width: auto; */
 }
@@ -88,16 +90,16 @@
   background-color: var(--btn-bg-color2);
   border: 1px solid rgba(22, 23, 23, 0.15);
   background: rgba(22, 23, 23, 0.05);
-  padding: 16px 110px;
+  padding: 16px 0;
   letter-spacing: 1px;
-  width: 370px;
+  width: 100%;
 }
 
-#buttons .btn::after{
+#buttons .btn::after {
   background-color: var(--btn-bg-color1);
 }
 
-#buttons .btn span:last-child{
+#buttons .btn span:last-child {
   white-space: nowrap;
   color: var(--text-color2);
 }
@@ -110,8 +112,6 @@ button.view-btn.btn {
   border: 1px solid rgba(16, 16, 16, 0.15);
   background: var(--btn-bg-color1);
 }
-
-
 
 /* #Services {
   display: flex;
@@ -148,7 +148,7 @@ section.AllProjects-btn.view-proj-btn {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 0 1rem 0.45rem;
+  /* margin: 0 1rem 0.45rem; */
 }
 
 .project-item p {
@@ -173,7 +173,6 @@ section.proj-btn {
   gap: 10px;
 }
 
-
 .Contact-text button {
   border: 1px solid rgba(248, 248, 248, 0.15);
   background: rgba(248, 248, 248, 0.05);
@@ -186,4 +185,25 @@ section.proj-btn {
 
 .Contact-text .btn span:last-child {
   color: var(--text-color1);
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width: 768px) {
+  #buttons {
+    flex-direction: column;
+  }
+
+  section.project-list {
+    margin: 3rem 2rem;
+  }
+
+  .proj.proj1, .proj2, .proj3, .proj4 {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 480px) {
 }

@@ -55,7 +55,9 @@
     display: none;
 }
 
-@media screen and (max-width: 550px) {
+
+
+@media screen and (max-width: 768px) {
     /* CSS rules for screens with a maximum width of 600px or less */
     .navbar{
         flex-wrap: wrap;
@@ -68,5 +70,70 @@
         margin-top: 10px;
     }
 
+    #Services h2{
+        font-size: 3.5rem;
+    }
+
 
   }
+
+  /* Responsive Styles */
+/* @media (max-width: 1024px) {
+    nav {
+      flex-wrap: wrap;
+    }
+  
+    nav a {
+      flex: 1 1 45%;
+      padding: 10px 0;
+    }
+  
+    header {
+      padding: 15px;
+    }
+  
+    button {
+      width: 90%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    nav a {
+      width: 100%;
+      padding: 15px;
+    }
+  
+    h1, h2, h3 {
+      font-size: 1.5rem;
+    }
+  
+    button {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    nav {
+      padding: 5px;
+    }
+  
+    nav a {
+      padding: 10px;
+      font-size: 0.9rem;
+    }
+  
+    h1, h2, h3 {
+      font-size: 1.2rem;
+      margin: 10px;
+    }
+  
+    button {
+      font-size: 0.9rem;
+      padding: 8px 16px;
+    }
+  } */
