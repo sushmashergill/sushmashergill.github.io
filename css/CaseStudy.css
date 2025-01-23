@@ -86,7 +86,7 @@ section#Project-Gallery {
     margin: 7rem 0;
 }
 
-.services-item div {
+.services-item div, .services-item hr {
     width: 45%;
   }
 
@@ -96,10 +96,6 @@ section#Project-Gallery {
     padding: 15px 0px;
     line-height: 1.3;
     text-transform: none;
-}
-
-.services-item hr{
-    width: 46%;
 }
 
 .Project-Gallery-text.mx-auto.max-width {
@@ -120,4 +116,103 @@ section#Project-Gallery {
 
 .project-img img{
     margin-top: 4rem;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 1024px) {
+    .container {
+        background-position: left;
+    }
+
+    .services-item span {
+        text-align: start;
+    }
+
+    .services-item div, .services-item hr {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .container{
+        height: 90vh;
+    }
+
+    .infoContainer {
+        padding: 10rem 0;
+    }
+
+    .top-left {
+        display: none;
+    }
+
+    h2 {
+        font-size: 3rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    .project-img img {
+        margin-top: 3rem;
+    }
+
+    section#Project-Gallery {
+        margin: 4rem 0;
+    }
+
+    .services-item p {
+        letter-spacing: 0.5px;
+        line-height: 1.25;
+        font-size: 1.15rem;
+    }
+
+    .services-item div, .services-item hr {
+        width: 55%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .container {
+        height: 70vh;
+        background-position: center;
+    }
+
+    .services-text h2 {
+        font-size: 2rem;
+    }
+
+    .services-text p {
+        font-size: 1.20rem;
+    }
+
+    .services-item div {
+        padding: 1.5rem 0 1rem;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+    
+    .services-item p {
+        letter-spacing: 0.5px;
+        line-height: 1.25;
+        font-size: 1.1rem;
+        width: 88%;
+    }
+
+    .services-item div, .services-item hr {
+        width: 100%;
+    }
+
+    #Services {
+        margin: 3rem 0;
+    }
 }

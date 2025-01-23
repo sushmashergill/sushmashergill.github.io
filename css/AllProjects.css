@@ -192,18 +192,128 @@ section.proj-btn {
 }
 
 @media screen and (max-width: 768px) {
+  #main {
+    padding-top: 6rem;
+    /* background-color: aqua; */
+  }
+
+  .main-heading h1 {
+    font-size: 3.5rem;
+  }
+
+  .main-heading p {
+    font-size: 1.3rem;
+  }
+
   #buttons {
     flex-direction: column;
   }
 
-  section.project-list {
-    margin: 3rem 2rem;
+  .project-item h3 {
+    font-size: 2rem;
   }
 
-  .proj.proj1, .proj2, .proj3, .proj4 {
-    flex-direction: column;
+  .project-item p {
+    font-size: 1.1rem;
+  }
+
+  .project-list {
+    margin: 3rem 4rem;
+  }
+
+  /* section.project-list {
+    margin: 3rem 2rem;
+  } */
+
+  .proj.proj1,
+  .proj2,
+  .proj3,
+  .proj4 {
+    align-items: center;
   }
 }
 
 @media screen and (max-width: 480px) {
+  .logo a {
+    text-align: left;
+    width: 20%;
+    font-size: 1rem;
+}
+
+button.btn {
+  padding: 10px 17px;
+}
+
+.top-right {
+  padding: 80px 0;
+}
+
+.top-right h3 {
+  color: var(--text-color2);
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+#main {
+  padding-top: 4rem;
+}
+
+.main-heading h1 {
+  font-size: 3.5rem;
+  font-size: 2rem;
+}
+
+.main-heading p {
+  font-size: 1.15rem;
+  width: 60%;
+  padding: 0.88rem 0;
+}
+
+#buttons {
+  padding-top: 1.5rem;
+  gap: 1.5rem
+}
+
+.project-list {
+  margin: 2rem 2.9rem;
+  gap: 1rem;
+}
+
+.project-item h3 {
+  font-size: 1.5rem;
+}
+
+.project-item p {
+  font-size: 1rem;
+  width: 80%;
+  margin: 0.2rem 0;
+  line-height: 1.2;
+}
+
+#Contact {
+  padding-top: 80px;
+  margin-top: 5rem;
+}
+
+.content {
+  display: none;
+}
+
+.Contact-text {
+  padding-bottom: 50px;
+}
+
+.Contact-items li span {
+  display: none;
+}
+
+.Contact-text h1 {
+  font-size: 2rem;
+}
+
+.Contact-copywrite p {
+  font-size: 0.8rem;
+}
+
 }
