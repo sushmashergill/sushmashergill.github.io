@@ -1,25 +1,3 @@
-/* .infoContainer {
-  position: relative;
-  display: flex;
-  align-items: center;
-  text-align: left;
-}
-
-.infoContainer::after {
-  position: absolute;
-  display: block;
-  content: "";
-  width: 100%;
-  height: 600px;
-  top: 0; */
-  /* opacity: 17.15; */
-  /* background-size: cover;
-  background-position: center; */
-  /* z-index: -1; */
-  /* background-image: url(./images/bg-img1.png);
-} */
-
-
 .container{
     background-image: url(../assets/images/bg-CaseStudy.png);
     background-size: cover;
@@ -88,6 +66,10 @@ section#Project-Gallery {
 
 .services-item div, .services-item hr {
     width: 45%;
+  }
+
+  #challenges div {
+    display: block;
   }
 
 .services-item p{

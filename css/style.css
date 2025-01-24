@@ -95,10 +95,6 @@ html {
   position: relative;
   display: inline-block;
   text-transform: uppercase;
-  /* text-shadow: 0 0 1px rgba(255, 255, 255, 0.3); */
-  /* position: relative; */
-  /* font-weight: 700; */
-  /* color: var(--bg-color); */
   height: 20px;
   /* width: 80px; */
   font-size: 0.8rem !important;
@@ -402,12 +398,6 @@ html {
 .AllProjects-btn a,
 .Contact-items a,
 .Contact-btn a {
-  /* display: flex;
-  justify-content: right;
-  align-items: center;
-  text-decoration: none;
-  color: var(--text-color1);
-  font-weight: 600; */
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -502,10 +492,6 @@ h2 {
   align-items: end;
   font-size: 2rem;
 }
-
-/* span.sr-number {
-  font-size: 1.6rem;
-} */
 
 .services-item div {
   display: flex;
@@ -734,6 +720,11 @@ h2 {
   padding-top: 25px;
 }
 
+.Contact-items ul{
+  display: flex;
+  list-style: none;
+}
+
 .Contact-items li {
   margin: 0 30px;
 }
@@ -746,7 +737,7 @@ h2 {
 }
 
 .Contact-items li a img {
-  margin-right: 10px;
+  margin-right: 0.8rem;
   height: 32px;
 }
 
@@ -763,6 +754,10 @@ span.social-txt {
   padding-top: 100px;
 }
 
+.Contact-btn span{
+  font-size: 0.8rem;
+}
+
 .Contact-btn a {
   display: flex;
   align-items: center;
@@ -771,7 +766,7 @@ span.social-txt {
 }
 
 .Contact-btn a img {
-  margin-right: 15px;
+  margin-right: 0.8rem;
   height: 32px;
 }
 
@@ -929,30 +924,30 @@ span.social-txt {
     text-align: left;
     width: 20%;
     font-size: 1rem;
-}
+  }
 
-button.btn {
-  padding: 10px 17px;
-}
+  button.btn {
+    padding: 10px 17px;
+  }
 
-.top-right {
-  padding: 80px 0;
-}
+  .top-right {
+    padding: 80px 0;
+  }
 
-.top-right h3 {
-  color: var(--text-color2);
-  text-transform: capitalize;
-  font-size: 1.5rem;
-  font-weight: 600;
-}
+  .top-right h3 {
+    color: var(--text-color2);
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
 
-.top-right p {
-  width: 80%;
-}
+  .top-right p {
+    width: 80%;
+  }
 
-.top-right p {
-  font-size: 1.15rem;
-}
+  .top-right p {
+    font-size: 1.15rem;
+  }
 
   .item span {
     width: max-content;
@@ -973,7 +968,7 @@ button.btn {
 
   h2 {
     font-size: 2rem;
-}
+  }
 
   .heading-text h3 {
     font-size: 2rem;
@@ -999,11 +994,12 @@ button.btn {
     display: none;
   }
 
-  .bg-img1, .bg-img2 {
+  .bg-img1,
+  .bg-img2 {
     height: 220px;
     width: 100%;
     margin-bottom: 35px;
-}
+  }
 
   .bg-img1,
   .bg-img2 {
@@ -1013,30 +1009,31 @@ button.btn {
   .View-AllProjects {
     padding-top: 0;
     font-size: 0.7rem;
-}
+  }
 
-.AllProjects-btn a img {
-  margin-left: 0.2rem;
-  height: 35px;
-}
+  .AllProjects-btn a img {
+    margin-left: 0.2rem;
+    height: 35px;
+  }
 
-.services-item div, .services-item hr {
-  width: 100%;
-}
+  .services-item div,
+  .services-item hr {
+    width: 100%;
+  }
 
-.services-text h2 {
-  font-size: 2rem;
-}
+  .services-text h2 {
+    font-size: 2rem;
+  }
 
-.services-text p {
-  font-size: 1.15rem;
-  padding: 0.88rem 0;
-}
+  .services-text p {
+    font-size: 1.15rem;
+    padding: 0.88rem 0;
+  }
 
   #Contact {
     padding-top: 80px;
     margin-top: 5rem;
-}
+  }
 
   .content {
     display: none;
@@ -1044,7 +1041,7 @@ button.btn {
 
   .Contact-text {
     padding-bottom: 50px;
-}
+  }
 
   .Contact-items li span {
     display: none;
@@ -1052,7 +1049,7 @@ button.btn {
 
   .Contact-text h1 {
     font-size: 2rem;
-}
+  }
 
   .Contact-copywrite p {
     font-size: 0.8rem;
@@ -1061,29 +1058,28 @@ button.btn {
   .btn {
     font-size: 12px;
     padding: 10px 25px;
-}
+  }
 
-.Contact-items li {
-  margin: 0 20px;
-}
+  .Contact-items li {
+    margin: 0 20px;
+  }
 
-.Contact-social_media h6 {
-  font-size: 0.9rem;
-  font-weight: 500;
-  text-transform: capitalize;
-}
+  .Contact-social_media h6 {
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
 
-.Contact-text button {
-  white-space: nowrap;
-  margin-top: 35px;
-}
+  .Contact-text button {
+    white-space: nowrap;
+    margin-top: 35px;
+  }
 
-#Services {
-  margin: 3rem 0;
-}
+  #Services {
+    margin: 3rem 0;
+  }
 
-.Contact-copywrite {
-  padding-top: 80px;
-}
-
+  .Contact-copywrite {
+    padding-top: 80px;
+  }
 }
