@@ -13,15 +13,15 @@
 }
 
 :root {
-  --main-bg-color1: #161717;
+  --main-bg-color1: #000;
   --main-bg-color2: white;
   /* --bg-color: #F8F8F8; */
-  --text-color1: #161717;
+  --text-color1: #000;
   --text-color2: #f8f8f8;
   /* --color: white; */
   --font1: "Dirtyline", cursive;
   --font2: "Darker Grotesque", sans-serif;
-  --btn-bg-color1: #161717;
+  --btn-bg-color1: #000;
   --btn-bg-color2: #f8f8f8;
 }
 
@@ -325,6 +325,11 @@ html {
   margin-bottom: 60px;
 }
 
+.bg-img2 {
+  margin-top: 100px;
+  margin-bottom: 30px !important;
+}
+
 .bg-img1::after {
   position: absolute;
   display: block;
@@ -337,7 +342,7 @@ html {
   background-size: cover;
   background-position: center;
   z-index: -1;
-  background-image: url("../assets/images/rage_beauty.png");
+  background-image: url("../assets/images/rage_case.png");
 }
 
 .bg-img2::after {
