@@ -342,7 +342,7 @@ html {
   background-size: cover;
   background-position: center;
   z-index: -1;
-  background-image: url("../assets/images/rage_case.png");
+  background-image: url("../assets/images/rage-case/rage_case.png");
 }
 
 .bg-img2::after {
@@ -356,7 +356,7 @@ html {
   background-size: cover;
   background-position: center;
   z-index: -1;
-  background-image: url("../assets/images/addiction_intervention.png");
+  background-image: url("../assets/images/addic-case/addiction_intervention.png");
 }
 
 .content {

@@ -8,7 +8,14 @@
 }
 
 .rage-container{
-    background-image: url(../assets/images/rage_case.png);
+    background-image: url(../assets/images/rage-case/rage_case.png);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.addiction-container{
+    background-image: url(../assets/images/addic-case/addiction_intervention.png);
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
@@ -123,7 +130,7 @@ section#Project-Gallery {
 
 .scroll-column {
     width: 100%;
-    height: 500px;
+    height: 700px;
     overflow: hidden;
     position: relative;
     border: solid 10px #000;
