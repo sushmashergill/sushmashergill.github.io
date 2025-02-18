@@ -41,6 +41,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+
 // document.addEventListener("DOMContentLoaded", function () {
 //   let scrollSpeed = 10; // Adjust scroll speed
 //   let intervals = {}; // Store separate intervals for each column
