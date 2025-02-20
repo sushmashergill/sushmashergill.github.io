@@ -276,6 +276,10 @@ html {
   height: 32px;
 }
 
+.explore-arrow{
+  margin-left: 0.8rem;
+}
+
 #Work {
   height: auto;
 }
@@ -977,6 +981,7 @@ span.social-txt {
     font-size: 2rem;
     line-height: 2rem;
   }
+
 
   .MyWork-btn a img,
   .Contact-btn a img {
