@@ -1,4 +1,8 @@
 /* Logo Image Grid Styling */
+.logo-container {
+    background-image: url(../assets/images/logo/logo-banner.png);
+}
+
 .logo-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
