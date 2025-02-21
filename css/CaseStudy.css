@@ -151,6 +151,8 @@ section#Project-Gallery {
   max-width: 80%;
   height: auto;
   object-fit: cover;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgb(0 0 0 / 6%);
 }
 
 /* scroll image */
