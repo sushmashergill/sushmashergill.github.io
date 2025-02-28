@@ -1029,14 +1029,14 @@ span.social-txt {
     width: 100%;
   }
 
-  .services-text h2 {
+  /* .services-text h2 {
     font-size: 2rem;
   }
 
   .services-text p {
     font-size: 1.15rem;
     padding: 0.88rem 0;
-  }
+  } */
 
   #Contact {
     padding-top: 80px;
