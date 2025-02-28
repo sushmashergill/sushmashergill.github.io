@@ -11,7 +11,7 @@
 }
 
 .container-mob {
-  background-size: contain !important;
+  background-size: cover !important;
   /* background-position: bottom !important; */
 }
 
@@ -47,7 +47,7 @@
 }
 
 .cargoflare-container {
-  background-image: url(../assets/images/cargoflare-case/cargoflare-banner.webp);
+  background-image: url(../assets/images/cargoflare-case/cargo-ban.webp);
 }
 
 .angel-container {
