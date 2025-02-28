@@ -256,7 +256,8 @@ section#Project-Gallery {
 
 @media screen and (max-width: 768px) {
   .container {
-    height: 90vh;
+    height: 90vh !important;
+    background-position: right;
   }
 
   .infoContainer {
@@ -298,7 +299,7 @@ section#Project-Gallery {
 @media screen and (max-width: 480px) {
   .container {
     height: 50vh !important;
-    background-position: right;
+    background-position: center;
   }
 
   .container-mob {
