@@ -331,6 +331,7 @@ section#Project-Gallery {
     line-height: 1.25;
     font-size: 1.1rem;
     width: 88%;
+    color: var(--font2);
   }
 
   .services-item div,
