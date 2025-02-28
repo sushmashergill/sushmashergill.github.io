@@ -330,9 +330,9 @@ section#Project-Gallery {
   .services-item p {
     letter-spacing: 0.5px;
     line-height: 1.25;
-    font-size: 0.75rem;
+    font-size: 0.90rem;
     width: 88%;
-    font-weight: 400;
+    font-weight: 400 !important;
   }
 
   .services-item div,
