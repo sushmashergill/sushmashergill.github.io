@@ -1,0 +1,64 @@
+/* Logo Image Grid Styling */
+.logo-container {
+    background-image: url(../assets/images/logo/logo-banner.png);
+}
+
+.logo-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Grid Item Styling */
+.grid-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 6px;
+    padding: 8px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 6%);
+    transition: transform 0.3s ease, box-shadow 0.3sease;
+}
+
+.grid-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.grid-item:hover img {
+    transform: scale(1.1);
+}
+
+/* Grid Sizes */
+.large {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.medium {
+    grid-column: span 2;
+    grid-row: span 1;
+}
+
+.small {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .logo-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .large, .medium, .small {
+        grid-column: span 1 !important;
+        grid-row: span 1 !important;
+    }
+}
+
