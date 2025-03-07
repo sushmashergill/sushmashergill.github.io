@@ -7,7 +7,7 @@
     display: grid;
     grid-template-columns: repeat(4, 2fr);
     gap: 20px;
-    padding-top: 4rem;
+    padding: 4rem 2rem;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -54,6 +54,7 @@
 @media (max-width: 768px) {
     .logo-grid {
         grid-template-columns: 1fr;
+        padding: 2rem;
     }
 
     .large, .medium, .small {
