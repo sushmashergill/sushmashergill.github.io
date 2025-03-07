@@ -1,13 +1,13 @@
 /* Logo Image Grid Styling */
 .logo-container {
-    background-image: url(../assets/images/logo/logo-banner.png);
+    background-image: url(../assets/images/logo/logo-banner.webp);
 }
 
 .logo-grid {
     display: grid;
     grid-template-columns: repeat(4, 2fr);
     gap: 20px;
-    padding: 20px;
+    padding-top: 4rem;
     max-width: 1200px;
     margin: 0 auto;
 }

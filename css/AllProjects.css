@@ -199,6 +199,32 @@ section.proj-btn {
   #buttons {
     flex-direction: column;
   }
+  /* 
+  .category-btn {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.category-btn.active {
+    background: var(--btn-bg-color1);
+    color: var(--text-color2);
+} */
+
+.proj {
+  text-align: left;
+}
+
+  .project-list {
+    display: none; /* Hide project list initially */
+    flex-direction: column;
+    margin: 0 0.75rem 2rem;
+  }
+
+  .project-list.active {
+    display: flex;
+  }
 
   .project-item h3 {
     font-size: 2rem;
@@ -206,6 +232,7 @@ section.proj-btn {
 
   .project-item p {
     font-size: 1.1rem;
+    text-transform: capitalize;
   }
 
   .project-list {
@@ -263,7 +290,7 @@ section.proj-btn {
   }
 
   .project-list {
-    margin: 2rem 2.9rem;
+    margin: 0 0.75rem 2rem;
     gap: 1rem;
   }
 
@@ -276,6 +303,7 @@ section.proj-btn {
     width: 80%;
     margin: 0.2rem 0;
     line-height: 1.2;
+    text-transform: capitalize;
   }
 
   #Contact {
