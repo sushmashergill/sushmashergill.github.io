@@ -7,6 +7,14 @@
     background-image: url(../assets/images/artworks/art-banner.webp);
 }
 
+.emailer-container {
+    background-image: url(../assets/images/emailer/email-banner.webp);
+}
+
+.social-container {
+    background-image: url(../assets/images/social-media-posts/social-banner.webp);
+}
+
 .logo-grid {
     display: grid;
     grid-template-columns: repeat(4, 2fr);
