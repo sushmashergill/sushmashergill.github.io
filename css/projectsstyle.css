@@ -3,6 +3,10 @@
     background-image: url(../assets/images/logo/logo-banner.webp);
 }
 
+.art-container{
+    background-image: url(../assets/images/artworks/art-banner.webp);
+}
+
 .logo-grid {
     display: grid;
     grid-template-columns: repeat(4, 2fr);
